@@ -1,0 +1,18 @@
+program Array1D;
+uses crt;
+var n,i : integer;
+    A,B,C : array [1..5] of integer;
+begin
+clrscr;
+        write ('banyak data : ' ); readln (n);
+
+        for i := 1 to n do
+        begin
+                write ('masukkan nilai ' ,i, ' : '); readln (A[i]);
+        end;
+
+        writeln ('data yang anda masukkan :');
+        for i := 1 to n do
+        writeln ('nilai ' ,A[i],' : ',n);
+readln;
+end.
